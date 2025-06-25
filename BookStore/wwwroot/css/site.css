@@ -4,7 +4,7 @@ html {
 
 @media (min-width: 768px) {
     html {
-        font-size: 10px; /* keep small on medium+ screens */
+        font-size: 13px; /* keep small on medium+ screens */
     }
 }
 
@@ -12,6 +12,15 @@ body {
     font-size: 0.9rem;
     margin-bottom: 60px;
 }
+.btn {
+    display:inline-flex;
+    gap:5px;
+    font-size: 0.75rem; /* Smaller text */
+    padding: 0.25rem 1rem; /* Smaller padding */
+    
+}
+
+
 
 .table {
     font-size: 0.85rem;
